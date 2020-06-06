@@ -1,0 +1,25 @@
+
+1. Napisz program, który tworzy jakieś przykładowe zmienne każdego z poznanych Ci typów prymitywnych. 
+Następnie dla z tych zmiennych utwórz zmienną typu String. Następnie, przekonweruj utworzone String-i z powrotem na zmienne swojego pierwotnego typu.
+
+
+2. Napisz metodę, która zwróci tabicę jednowymarową o długości 10 i uzupełnij ją liczbami ciągu 0, 10, 20, 30.... Wywołaj metodę a następnie wyświetl tablicę.
+
+
+3. Napisz metodę, która jako argument przyjmie dwie tablice i zwrócici "połączone" tablice. Przetestuj działanie metody. 
+
+4. Napisz program, który "symuluje" działanie ekspresu do kawy. Program powinien składać się kilku metod, które opisują kolejne kroki przygotowywania napoju.
+
+5. Przejżyj programy, które pisałeś do tej pory. Czy można przepisać je w ten sposób, żeby "wydzielić" fragmenty kodu do spójnych metod?
+
+6. Przestudiuj działanie algorytmu przeszukiwania binarnego: http://www.algorytm.org/dla-poczatkujacych/szukanie-polowkowe-binarne.html
+Napisz metodę która realizuje ten algorytm, która przyjmuje posortowaną tablicę integerów, oraz int do wyszukania i zwraca boolean, który reprezentuje informację, czy zadana wartość znajduje się w tablicy.
+
+
+
+
+
+
+
+
+
