@@ -1,4 +1,4 @@
-package zadanka;
+package rozwiazaniazadan;
 
 import solutions.sol1.Point;
 

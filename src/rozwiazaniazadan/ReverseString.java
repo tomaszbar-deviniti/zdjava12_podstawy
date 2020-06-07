@@ -1,4 +1,4 @@
-package zadanka;
+package rozwiazaniazadan;
 
 public class ReverseString {
     public static void main(String[] args){

@@ -1,16 +1,21 @@
 package solutions.sol1;
 
 public class Point {
-    private int x;
-    private int y;
-    public Point(int x, int y) {
+    private double x;
+    private double y;
+    public Point(double x, double y) {
         this.x = x;
         this.y = y;
     }
-    public int getX() {
+
+    public double getDistanceFromZero(){
+        return Math.sqrt((Math.pow(x,2) + Math.pow(y,2)));
+    }
+
+    public double getX() {
         return x;
     }
-    public int getY() {
+    public double getY() {
         return y;
     }
     public void showCoordinates(){
