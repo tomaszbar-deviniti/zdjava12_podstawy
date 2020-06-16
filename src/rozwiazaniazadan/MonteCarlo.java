@@ -10,6 +10,9 @@ public class MonteCarlo {
             System.out.println(getPiFromPoints(i));
         }
     }
+    
+    //bardzo fajnie roziwązane! z użyciem klasy Point :) można by tylko pominąć tworzenie tablicy pointsArrray i od razy zliczać
+//pubkty, które "wpadły" do koła i wszystkie punkty
 
     public static double getPiFromPoints(int numberOfPoints){
         Point[] pointsArray = new Point[numberOfPoints];
