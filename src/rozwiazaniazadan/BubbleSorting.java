@@ -9,9 +9,9 @@ public class BubbleSorting {
     }
 
     public static int[] sortArray(int[] array){
-        int[] sortedArray = new int[array.length];
+        int[] sortedArray = new int[array.length]; //Twoje podejście nie "zmienia" istniejącej tablicy lecz tworzy nową
         int temp;
-        while(!Arrays.equals(sortedArray,array)){
+        while(!Arrays.equals(sortedArray,array)){ //ta pętala while wygląda na niepotrzebną, bo wykona się tylko raz
             sortedArray = Arrays.copyOf(array,array.length);
             for(int j=array.length-1;j>0;j--) {
                 for (int i = 0; i < j; i++) {
