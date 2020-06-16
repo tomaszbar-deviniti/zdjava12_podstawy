@@ -19,8 +19,8 @@ public class Library {
     }
 
     public void printBooks(){
-        for(int i=0;i<books.length;i++){
-            if(books[i] != null){
+        for(int i=0;i<books.length;i++){//tutaj można iterować do nextEmptyBookSlot
+            if(books[i] != null){ 
                 System.out.println(books[i]);
             }
         }
